@@ -1,1 +1,3 @@
-console.log("O que eu quiser")
+let dan = 50
+
+console.log(dan)
