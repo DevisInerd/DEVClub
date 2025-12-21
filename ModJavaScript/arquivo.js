@@ -1,3 +1,2 @@
-let dan = 50
-
-console.log(dan)
+const input = document.getElementById("main-input")
+console.log(input)
