@@ -1,4 +1,8 @@
-const elements = document.querySelector("paragraph-js")
-console.log(elements.textContent) //SÓ HTML
-console.log(elements.innerText) // Leva em conta o CSS
-console.log(elements.innerHTML) // Trás tudo
+
+const input = document.querySelector("#main-input")
+const select = document.querySelector("select")
+const button = document.querySelector(".main-button")
+
+select.addEventListener("change", function(){
+    console.log("Troquei de valor")
+})
